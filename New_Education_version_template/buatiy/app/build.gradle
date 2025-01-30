@@ -1,0 +1,30 @@
+plugins {
+	id 'com.android.application'
+}
+
+android {
+	compileSdkVersion 28
+	
+	useLibrary 'org.apache.http.legacy'
+	
+	defaultConfig {
+		applicationId "ps.albreem.thirdgroup.app1"
+		minSdkVersion 21
+		targetSdkVersion 28
+		versionCode 7
+		versionName "7.2"
+	}
+	
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+		}
+	}
+}
+
+dependencies {
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation 'com.github.bumptech.glide:glide:4.12.0'
+	implementation 'com.google.code.gson:gson:2.8.7'
+}

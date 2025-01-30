@@ -1,0 +1,18 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ListView
+		android:id="@+id/listview1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="20dp"
+		android:paddingTop="60dp"
+		android:paddingRight="20dp"
+		android:paddingBottom="30dp"
+		android:background="#E0E0E0"
+		android:choiceMode="none" />
+</LinearLayout>
