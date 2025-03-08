@@ -4,4 +4,4 @@
 
 ## I declare that I published this for the Arabic region without any responsibility for its reuse. I am publishing and reusing these resources again to rebuild better infrastructure and to reduce market pressure, ensuring it does not become a disadvantage for all of us.
 
-## — A Palestinian Engineer, January 2025
+## — A Palestinian Student, January 2025
